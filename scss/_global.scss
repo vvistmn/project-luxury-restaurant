@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html, body {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #5c6369  ;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    color: #2c465a;
+    font-weight: 700;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
